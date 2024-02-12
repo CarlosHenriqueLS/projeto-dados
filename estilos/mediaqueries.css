@@ -1,0 +1,15 @@
+@media screen and (min-width: 1024px) {
+    .content {
+        display: flex;
+        transition: display 0.5s;
+        transition-timing-function: ease;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    img {
+        width: 300px;
+    }
+}
