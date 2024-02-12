@@ -1,8 +1,6 @@
 @media screen and (min-width: 1024px) {
     .content {
         display: flex;
-        transition: display 0.5s;
-        transition-timing-function: ease;
     }
 
     h1 {
@@ -11,5 +9,11 @@
 
     img {
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 1em;
     }
 }
