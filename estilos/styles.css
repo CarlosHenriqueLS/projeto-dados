@@ -49,6 +49,23 @@ img {
     align-items: center;
 }
 
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4ECCA3;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 100px; 
+    cursor: pointer;
+    font-family: "Protest Riot", sans-serif;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
 footer {
     background-color: black;
     color: white;
