@@ -34,6 +34,10 @@ if (resultadoFaces.numero1 > resultadoFaces.numero2 ){
     textoPrincipal.textContent = 'Empate! 😐'
 }
 
+function atualizarPagina() {
+    location.reload(); // Recarrega a página
+  }
+
 
 
 
